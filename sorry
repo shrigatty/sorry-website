@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>I'm Sorry</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to right, #fceabb, #f8b500);
+      color: #333;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 3em;
+      margin-bottom: 0.2em;
+    }
+
+    p {
+      max-width: 600px;
+      font-size: 1.2em;
+      padding: 0 20px;
+    }
+
+    .button {
+      margin-top: 2em;
+      padding: 15px 30px;
+      background-color: #ff6b6b;
+      color: white;
+      border: none;
+      border-radius: 25px;
+      font-size: 1em;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .button:hover {
+      background-color: #ee5253;
+    }
+
+    footer {
+      position: absolute;
+      bottom: 10px;
+      font-size: 0.8em;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <h1>I'm Really Sorry 😔</h1>
+  <p>
+    I know I hurt you, and I can’t express how deeply sorry I am. I never meant to make you feel this way.  
+    You mean so much to me, and I just want to make things right again. Please forgive me. 💛
+  </p>
+  <button class="button" onclick="window.location.href='https://wa.me/yourphonenumber'">Talk to Me</button>
+
+  <footer>Made with ❤️ just for you</footer>
+</body>
+</html>
